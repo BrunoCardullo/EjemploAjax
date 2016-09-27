@@ -21,6 +21,10 @@ function BorrarCD(idParametro)
 
 function EditarCD(idParametro)
 {
+	setTimeout(function() 
+		{
+			MostrarFormAlta;
+		}, 4);
 	var funcionAjax=$.ajax({
 		url:"nexo.php",
 		type:"post",
